@@ -1,0 +1,74 @@
+.home-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  gap: 1rem;
+}
+
+.home-container .title {
+  font-size: 5em;
+  color: white;
+}
+
+.home-container .options-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+}
+
+.home-container .options-btn #logInBtn, .home-container .options-btn #signUpBtn, .home-container .options-btn #filmsBtn, .home-container .options-btn #addBtn {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: white;
+  font-size: 2em;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.home-container .options-btn #logInBtn:hover {
+  -webkit-box-shadow: 0 0 30px 3px #80C9E0;
+          box-shadow: 0 0 30px 3px #80C9E0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.home-container .options-btn #signUpBtn:hover {
+  -webkit-box-shadow: 0 0 30px 3px #6258D8;
+          box-shadow: 0 0 30px 3px #6258D8;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.home-container .options-btn #filmsBtn:hover {
+  -webkit-box-shadow: 0 0 30px 3px #58AAD8;
+          box-shadow: 0 0 30px 3px #58AAD8;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.home-container .options-btn #addBtn:hover {
+  -webkit-box-shadow: 0 0 30px 3px #FFA800;
+          box-shadow: 0 0 30px 3px #FFA800;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,48 @@
+$color-sign-in: #80C9E0;
+$color-sign-up: #6258D8;
+$color-add:#FFA800;
+$color-sign-in-form: #58AAD8;
+
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    gap: 1rem;
+    .title{
+        font-size: 5em;
+        color: white;
+    }
+    .options-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        #logInBtn, #signUpBtn,#filmsBtn,#addBtn{
+            text-decoration: none;
+            padding: 5px 10px;
+            color: white;
+            font-size: 2em;
+            border: 2px solid white;
+            border-radius: 5px;
+        }
+        #logInBtn:hover{
+            box-shadow: 0 0 30px 3px $color-sign-in;
+            transition: .5s;
+        }
+        #signUpBtn:hover{
+            box-shadow: 0 0 30px 3px $color-sign-up;
+            transition: .5s;
+        }
+        #filmsBtn:hover{
+            box-shadow: 0 0 30px 3px $color-sign-in-form;
+            transition: .5s;
+        }
+        #addBtn:hover{
+            box-shadow: 0 0 30px 3px $color-add;
+            transition: .5s;
+        }
+    }
+}

@@ -1,0 +1,102 @@
+$color-sign-in: #80C9E0;
+$color-btn-delete: #D80000;
+$color-add:#FFA800;
+
+.list-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 8vh;
+    text-align: center;
+    gap: 40px;
+    .list-item{
+        background-color: rgba($color-sign-in, .5);
+        max-width: 400px;
+        min-height: 300px;
+        padding: 30px;
+        margin-bottom: 50px;
+        .film-title{
+            font-size: 1.8em;
+            color: black;
+            text-decoration: none;
+            h3{
+                padding: 0 5px;
+            }
+        }
+        .film-title h3:hover{
+            transform: scale(1.05);
+            background-color: black;
+            color: #80C9E0;
+            transition: .5s;
+            border-radius: 5px;
+        }
+        .film-description{
+            font-size: 1.2em;
+            color: white;
+            padding-top: 40px;
+        }
+        .item-created-at{
+            font-size: 1em;
+            color: white;
+        }
+        .btn-container{
+            display: flex;
+            justify-content: space-evenly;
+            .delete-btn,.edit-btn{
+                text-decoration: none;
+                font-weight: 600;
+                padding: 8px;
+                font-size: 1em;
+                background-color: rgba($color-btn-delete, .8);
+                color: black;
+                border-radius: 3px;
+            }
+            .edit-btn{
+                background-color: rgba($color-sign-in,.8);
+            }
+            .edit-btn:hover{
+                background-color: rgba($color-sign-in,1);
+                box-shadow: 0 0 15px rgba(black,0.7);
+                transition: .3s;
+            }
+            .delete-btn:hover{
+                background-color: rgba($color-btn-delete,1);
+                box-shadow: 0 0 15px rgba(black,0.7);
+                transition: .3s;
+            }
+        }
+        .space{
+            padding-bottom: 50px;
+        }
+    }
+    .empty-list{
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        border: 2px solid white;
+        background-color: rgba(0,0,0, 0.7);
+        border-radius: 5px;
+        padding: 20px;
+        .message{
+            font-size: 2em;
+            font-weight: 600;
+            color: white;
+        }
+        .new-film-btn{
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            font-size: 1.3em;
+            border: 2px solid white;
+            width: 30%;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .new-film-btn:hover{
+            box-shadow: 0 0 15px rgba($color-add, 0.8);
+            transition: .5s;
+        }
+    }
+}

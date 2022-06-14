@@ -1,0 +1,19 @@
+<!-- STYLES -->
+<link rel="stylesheet" href="/styles/nav.css">
+<nav class="nav-container">
+  <a class="logo" href="/"><img src="/img/nav-logo.svg" alt="logo"></a>
+  <div class="nav-division"></div>
+  {{#if user}}
+  <ul class="user-logged-options">
+    <li class="nav-item"><a class="nav-link" href="/films">My Films</a></li>
+    <li class="nav-item"><a class="nav-link" href="/films/add">Add a film</a></li>
+    <li class="nav-item"><a href="/profile" class="nav-link">Profile</a></li>
+    <li class="nav-item"><a href="/logout" class="nav-link">Logout</a></li>
+  </ul>
+  {{else}}
+  <div class="unlogged-options">
+    <li class="nav-item"><a href="/signin" class="nav-link">Log in</a></li>
+    <li class="nav-item"><a href="/signup" class="nav-link">Sign up</a></li>
+  </div>
+  {{/if}}
+</nav>

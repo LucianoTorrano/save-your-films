@@ -1,0 +1,59 @@
+.profile-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 8vh;
+  text-align: center;
+  gap: 40px;
+}
+
+.profile-container .message-container {
+  margin-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.profile-container .message-container .message {
+  font-size: 2em;
+  font-weight: 600;
+  color: white;
+}
+
+.profile-container .message-container .new-film-btn {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.3em;
+  border: 2px solid white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.profile-container .message-container .new-film-btn:hover {
+  -webkit-box-shadow: 0 0 15px #58aad8;
+          box-shadow: 0 0 15px #58aad8;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+/*# sourceMappingURL=profile.css.map */

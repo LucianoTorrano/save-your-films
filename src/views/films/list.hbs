@@ -1,0 +1,23 @@
+<!-- FILMS LIST STYLES-->
+<link rel="stylesheet" href="/styles/list.css">
+
+<div class="list-container">
+    {{#each films}}
+    <div class="list-item">
+        <a href="{{url}}" target="_blank" class="film-title space">
+            <h3>{{title}}</h3>
+        </a>
+        <p class="film-description space">{{description}}</p>
+        <p class="item-created-at space">{{timeago created_at }}</p>
+        <div class="btn-container">
+                    <a href="/films/delete/{{id}}" class="delete-btn">Delete Film</a>
+                    <a href="/films/edit/{{id}}" class="edit-btn">Edit</a>
+        </div>
+    </div>
+    {{else}}
+    <div class="empty-list">
+        <p class="message">There are not films saved yet.</p>
+        <a href="/films/add" class="new-film-btn">Save One!</a>
+    </div>
+    {{/each}}
+</div>

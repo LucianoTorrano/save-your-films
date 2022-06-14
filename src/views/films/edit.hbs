@@ -1,0 +1,26 @@
+<!-- ADD STYLE -->
+<link rel="stylesheet" href="/styles/edit.css">
+
+<div class="edit-container">
+    <h3 class="edit-title">Edit</h3>
+    <div class="card-container">
+        <img src="/img/edit.svg" alt="logo" class="logo">
+        <form action="/films/edit/{{filmEdit.id}}" method="POST" class="form-container">
+            <div class="form-element">
+                <div class="text-input">Title</div>
+                <input type="text" name="title" value="{{filmEdit.title}}" class="form-input" autocomplete="off" required autofocus>
+            </div>
+            <div class="form-element">
+                <div class="text-input">Url</div>
+                <input type="url" name="url" value="{{filmEdit.url}}" class="form-input" autocomplete="off">
+            </div>
+            <div class="form-element">
+                <div class="text-input">Description</div>
+                <textarea name="description" rows="5" class="form-input no-resizable description-scroll">{{filmEdit.description}}</textarea>
+            </div>
+            <div class="form-element btn-container">
+                <button class="sign-up-btn">Save</button>
+            </div>
+        </form>
+    </div>
+</div>

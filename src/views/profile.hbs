@@ -1,0 +1,11 @@
+<!-- PROFILE STYLE -->
+<link rel="stylesheet" href="/styles/profile.css">
+
+{{#each user}}
+<div class="profile-container">
+    <div class="message-container">
+        <h3 class="message">Welcome {{fullname}}</h3>
+        <a href="/films" class="new-film-btn">Lets see your films</a>
+    </div>
+</div>
+{{/each}}

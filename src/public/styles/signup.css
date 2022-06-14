@@ -1,0 +1,102 @@
+.sign-up-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  background-color: rgba(98, 88, 216, 0.35);
+  margin: 3vh auto;
+  min-height: 70vh;
+  max-width: 500px;
+}
+
+.sign-up-container .sign-up-title {
+  font-size: 4em;
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.sign-up-container .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.sign-up-container .card-container .logo {
+  height: 300px;
+}
+
+.sign-up-container .card-container .form-container {
+  width: 100%;
+}
+
+.sign-up-container .card-container .form-container .form-element {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.sign-up-container .card-container .form-container .form-element .text-input {
+  font-size: 1.5em;
+  color: white;
+}
+
+.sign-up-container .card-container .form-container .form-element .form-input {
+  border: none;
+  background-color: black;
+  padding: 7px;
+  width: 100%;
+  color: white;
+  font-size: 1.1em;
+}
+
+.sign-up-container .card-container .form-container .form-element .sign-up-btn {
+  padding: 7px;
+  font-size: 1.5em;
+  margin: auto;
+  background-color: #6258D8;
+  color: black;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+.sign-up-container .card-container .form-container .form-element .log-in-btn:hover {
+  -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.6);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.sign-up-container .card-container .form-container .form-element .form-input:focus {
+  outline: none;
+  border-bottom: 3px solid white;
+}
+
+.sign-up-container .card-container .form-container .btn-container {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=signup.css.map */

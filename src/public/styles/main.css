@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Heebo', sans-serif;
+  position: relative;
+  z-index: 4;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+body #canvas-bg {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,79 @@
+$color-add:#FFA800;
+
+$form-opacity: 0.3;
+
+$font-size-title: 3em;
+body{
+    background-color: #080808;
+}
+.add-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: rgba($color-add, $form-opacity);
+    margin: 50px auto;
+    min-height: 70vh;
+    max-width: 550px;
+    .add-title{
+        font-size: $font-size-title;
+        color: white;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .card-container{
+        display: flex;
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;    
+        .logo{
+            height: 300px;
+        }
+        .form-container{
+            width: 100%;
+            .form-element{
+                padding-bottom: 20px;
+                width: 100%;
+                .text-input{
+                    font-size: 1.5em;
+                    color: white;
+                }
+                .form-input{
+                    border: none;
+                    background-color: black;
+                    padding: 7px;
+                    width: 100%;
+                    color: white;
+                    font-size: 1.1em;
+                }
+                .sign-up-btn{
+                    padding: 7px;
+                    font-size: 1.5em;
+                    margin: auto;
+                    background-color: $color-add;
+                    color: black;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    text-decoration: none;
+                    border: none;
+                }
+                .log-in-btn:hover{
+                    box-shadow: 0 0 20px 1px rgba(#000000,0.6);
+                    transition: .5s;
+                }
+                .form-input:focus{
+                    outline: none;
+                    border-bottom: 3px solid white;
+                }
+                .no-resizable{
+                    resize: none;
+                }
+            }
+            .btn-container{
+                margin-top: 10px;
+                display: flex;
+            }
+        }
+    }
+}

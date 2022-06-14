@@ -1,0 +1,28 @@
+<!-- ADD STYLE -->
+<link rel="stylesheet" href="/styles/add.css">
+
+<div class="add-container">
+    <h3 class="add-title">Add a new Film</h3>
+    <div class="card-container">
+        <img src="/img/add.svg" alt="logo" class="logo">
+        <form action="/films/add" method="POST" class="form-container">
+            <div class="form-element">
+                <div class="text-input">Title</div>
+                <input type="text" name="title" class="form-input" autocomplete="off" required autofocus>
+            </div>
+            <div class="form-element">
+                <div class="text-input">Url</div>
+                <input type="url" name="url" class="form-input" autocomplete="off">
+            </div>
+            <div class="form-element">
+                <div class="text-input">Description</div>
+                <textarea name="description" rows="5" class="form-input no-resizable" ></textarea>
+            </div>
+            <div class="form-element btn-container">
+                <button class="sign-up-btn">Save</button>
+            </div>
+        </form>
+    </div>
+</div>
+<canvas id="canvas-bg"></canvas>
+<script src="../canvas-bg.js"></script>

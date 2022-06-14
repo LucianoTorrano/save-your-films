@@ -1,0 +1,139 @@
+.list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 8vh;
+  text-align: center;
+  gap: 40px;
+}
+
+.list-container .list-item {
+  background-color: rgba(128, 201, 224, 0.5);
+  max-width: 400px;
+  min-height: 300px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.list-container .list-item .film-title {
+  font-size: 1.8em;
+  color: black;
+  text-decoration: none;
+}
+
+.list-container .list-item .film-title h3 {
+  padding: 0 5px;
+}
+
+.list-container .list-item .film-title h3:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: black;
+  color: #80C9E0;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 5px;
+}
+
+.list-container .list-item .film-description {
+  font-size: 1.2em;
+  color: white;
+  padding-top: 40px;
+}
+
+.list-container .list-item .item-created-at {
+  font-size: 1em;
+  color: white;
+}
+
+.list-container .list-item .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.list-container .list-item .btn-container .delete-btn, .list-container .list-item .btn-container .edit-btn {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px;
+  font-size: 1em;
+  background-color: rgba(216, 0, 0, 0.8);
+  color: black;
+  border-radius: 3px;
+}
+
+.list-container .list-item .btn-container .edit-btn {
+  background-color: rgba(128, 201, 224, 0.8);
+}
+
+.list-container .list-item .btn-container .edit-btn:hover {
+  background-color: #80c9e0;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.list-container .list-item .btn-container .delete-btn:hover {
+  background-color: #d80000;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.list-container .list-item .space {
+  padding-bottom: 50px;
+}
+
+.list-container .empty-list {
+  margin-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.list-container .empty-list .message {
+  font-size: 2em;
+  font-weight: 600;
+  color: white;
+}
+
+.list-container .empty-list .new-film-btn {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.3em;
+  border: 2px solid white;
+  width: 30%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.list-container .empty-list .new-film-btn:hover {
+  -webkit-box-shadow: 0 0 15px rgba(255, 168, 0, 0.8);
+          box-shadow: 0 0 15px rgba(255, 168, 0, 0.8);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+/*# sourceMappingURL=list.css.map */

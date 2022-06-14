@@ -1,0 +1,15 @@
+<!-- STYLE -->
+<link rel="stylesheet" href="/styles/index.css">
+
+<div class="home-container">
+    <h1 class="title">SAVE YOUR FILMS</h1>
+    <div class="options-btn">
+        {{#if user}}
+        <a href="/films" id="filmsBtn">Go to your films</a>
+        <a href="/films/add" id="addBtn">Add a film</a>
+        {{else}}
+        <a href="/signin" id="logInBtn">Log in</a>
+        <a href="/signup" id="signUpBtn">Sign up</a>
+        {{/if}}
+    </div>
+</div>

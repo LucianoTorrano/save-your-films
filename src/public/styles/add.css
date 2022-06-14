@@ -1,0 +1,110 @@
+body {
+  background-color: #080808;
+}
+
+.add-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  background-color: rgba(255, 168, 0, 0.3);
+  margin: 50px auto;
+  min-height: 70vh;
+  max-width: 550px;
+}
+
+.add-container .add-title {
+  font-size: 3em;
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.add-container .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.add-container .card-container .logo {
+  height: 300px;
+}
+
+.add-container .card-container .form-container {
+  width: 100%;
+}
+
+.add-container .card-container .form-container .form-element {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.add-container .card-container .form-container .form-element .text-input {
+  font-size: 1.5em;
+  color: white;
+}
+
+.add-container .card-container .form-container .form-element .form-input {
+  border: none;
+  background-color: black;
+  padding: 7px;
+  width: 100%;
+  color: white;
+  font-size: 1.1em;
+}
+
+.add-container .card-container .form-container .form-element .sign-up-btn {
+  padding: 7px;
+  font-size: 1.5em;
+  margin: auto;
+  background-color: #FFA800;
+  color: black;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+.add-container .card-container .form-container .form-element .log-in-btn:hover {
+  -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.6);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.add-container .card-container .form-container .form-element .form-input:focus {
+  outline: none;
+  border-bottom: 3px solid white;
+}
+
+.add-container .card-container .form-container .form-element .no-resizable {
+  resize: none;
+}
+
+.add-container .card-container .form-container .btn-container {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=add.css.map */

@@ -1,0 +1,42 @@
+.nav-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 20% 50%;
+      grid-template-columns: 30% 20% 50%;
+  -ms-grid-rows: 100px;
+      grid-template-rows: 100px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 10%;
+  background: -webkit-gradient(linear, left bottom, left top, from(transparent), to(black));
+  background: linear-gradient(to top, transparent, black);
+}
+
+.nav-container .logo {
+  height: 150px;
+  text-decoration: none;
+}
+
+.nav-container .user-logged-options, .nav-container .unlogged-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3em;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-container .user-logged-options a, .nav-container .unlogged-options a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=nav.css.map */
