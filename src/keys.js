@@ -1,9 +1,9 @@
 module.exports = {
 
     database: {
-        host: 'localhost',
-        user: 'root',
-        password:'',
-        database: 'database_films'
+        host: 'us-cdbr-east-05.cleardb.net',
+        user: 'bc06f6808783f2',
+        password:'ca32fe4a',
+        database: 'heroku_ba834b1ce978558'
     }
 };
