@@ -1,5 +1,4 @@
-window.addEventListener('load', ()=>{
-    const bodyElement = document.getElementById('body')
+const bodyElement = document.getElementById('body')
 const canvas = document.getElementById('canvas-bg');
 const c = canvas.getContext('2d');
 
@@ -116,4 +115,3 @@ function animate(){
 
 init();
 animate();
-})

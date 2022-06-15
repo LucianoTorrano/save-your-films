@@ -7,7 +7,7 @@ USE database_films;
 CREATE TABLE users(
     id INT(11) NOT NULL,
     username VARCHAR(16) NOT NULL,
-    password VARCHAR(30) NOT NULL,
+    password VARCHAR(80) NOT NULL,
     fullname VARCHAR(80) NOT NULL
 );
 
